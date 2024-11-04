@@ -13,9 +13,9 @@ class Rectangle:
         return self._height
     
     def description(self):
-        self._width=round(self._width)
-        self._height=round(self._height)
-        print(f"This rectangle has a width of {self._width}and a height{self._height}")
+        self._width=round(self._width,1)
+        self._height=round(self._height,1)
+        print(f"This rectangle has a width of :{self._width} and a height: {self._height}")
     
     def isSquare(self):
         if (self._width==self._height):
